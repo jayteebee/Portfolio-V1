@@ -7,6 +7,7 @@ import Skills from './Components/Skills';
 function App() {
   return (
     <div className="App">
+    <h1>Jethro Block</h1>
       <Contact />
       <Projects />
       <Skills />
