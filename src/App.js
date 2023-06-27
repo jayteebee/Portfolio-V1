@@ -1,24 +1,38 @@
 import Contact from "./Components/Contact";
-import Projects from "./Components/Projects";
 import "./App.css";
-import Skills from "./Components/Skills";
+import P1 from "./Components/Projects/P1";
+import P2 from "./Components/Projects/P2";
+import P3 from "./Components/Projects/P3";
+import P4 from "./Components/Projects/P4";
 
 function App() {
   return (
     <div className="App">
       <div className="Container">
         <div className="Name">
-        
-          <p>Jethro Block</p> 
+          <p>Jethro Block</p>
         </div>
         <div className="Contact">
-        <Contact />
+          <Contact />
         </div>
 
-        <div className="SkillsAndProjects">
-          <Skills />
-          <Projects />
+        
+        <div className="fc P1">
+        <P1 />
         </div>
+
+        <div className="fc P2">
+        <P2 />
+        </div>
+
+        <div className="fc P3">
+        <P3 />
+        </div>
+
+        <div className="fc P4">
+        <P4 />
+        </div>
+      
       </div>
     </div>
   );
