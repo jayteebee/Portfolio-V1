@@ -1,0 +1,29 @@
+/* 7 row 3 column 
+name and contact on row 2 in column 2
+
+projects split between columns 1 and 3, with each having their own row
+have skills in projects
+
+*/
+
+.Container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 25vh repeat(6, 75vh);
+}
+
+.Name {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.Contact {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+    grid-column: 2;
+    grid-row: 2;
+}

@@ -6,10 +6,20 @@ import Skills from "./Components/Skills";
 function App() {
   return (
     <div className="App">
-      Jethro Block
-      <Contact />
-      <Skills />
-      <Projects />
+      <div className="Container">
+        <div className="Name">
+        
+          <p>Jethro Block</p> 
+        </div>
+        <div className="Contact">
+        <Contact />
+        </div>
+
+        <div className="SkillsAndProjects">
+          <Skills />
+          <Projects />
+        </div>
+      </div>
     </div>
   );
 }
