@@ -5,6 +5,10 @@ projects split between columns 1 and 3, with each having their own row
 have skills in projects
 
 */
+.App {
+    background: rgb(215,238,174);
+background: radial-gradient(circle, rgba(215,238,174,1) 0%, rgba(148,233,188,1) 100%);
+}
 
 .Container {
     display: grid;
