@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.004e73b2.css",
+    "main.js": "/static/js/main.7ef94a63.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf": "/static/media/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.61b71ee93d55d9bddead.ttf",
+    "static/media/Blockletter.otf": "/static/media/Blockletter.1148b96b8d22acea8b8c.otf",
+    "static/media/icons8-github.svg": "/static/media/icons8-github.dc49a960a2d3c5a49c806f6188a7733b.svg",
+    "index.html": "/index.html",
+    "static/media/icons8-linkedin.svg": "/static/media/icons8-linkedin.e9b8df20d092b20af087c400014ff4c8.svg",
+    "main.004e73b2.css.map": "/static/css/main.004e73b2.css.map",
+    "main.7ef94a63.js.map": "/static/js/main.7ef94a63.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.004e73b2.css",
+    "static/js/main.7ef94a63.js"
+  ]
+}
