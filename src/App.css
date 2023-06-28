@@ -27,20 +27,24 @@ font-family: 'Nunito';
 .navbar {
     display: flex;
     justify-content: flex-end;
-
+    align-items: center;
     background-color: #333; 
     position: fixed;
+    height: 40px;
     width: 100%;
     color: azure;
+  
   }
 
 .navbar a {
     margin-left: 1rem;
     margin-right: 2rem;
+    transition: transform 0.3s ease-in-out;
 }
 
 .navbar a:hover {
     color: aqua;
+    transform: translate(-5px, 5px);
 }
 
 .intro {
@@ -115,7 +119,7 @@ font-family: 'Nunito';
 
 .SocialLinks {
     display: flex;
-justify-content: space-between;
+justify-content: space-around;
 width: 100%;
 }
 
@@ -153,10 +157,13 @@ border-bottom: 1px solid;
 .PL a {
     color: black;
     text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+    padding-bottom: 0.5rem;
 }
 
 .PL a:hover {
     color: aqua;
+    transform: translate(-5px, 5px);
 }
 
 .PP, .PP2 {
@@ -208,36 +215,40 @@ border-bottom: 1px solid;
 @media only screen and (max-width: 768px) {
     .Container {
         grid-template-columns: 1fr;
-        grid-template-rows: auto;
+        grid-template-rows: 30vh repeat(6, 60vh) 30vh 50vh ;
     }
   
-    .navbar {
-        flex-direction: column;
-    }
 
     .navbar a {
         margin: 0.5rem;
     }
   
-    .intro, .outro, .Name, .AboutMe {
+    .intro, .outro, .Name {
         font-size: 2rem;
         grid-column: 1;
     }
 
+    .intro, .outro, .Name {
+        grid-row: 2;
+    }
+
     .AboutMe {
-        grid-row: auto;
+        font-size: 1rem;
+        grid-row: 3 ;
         padding-left: 1rem;
     }
 
     .Contact {
-        
         grid-column: 1;
-        grid-row: auto;
-        order: 20;
+        grid-row: 9;
     }
 
+
+
     .SocialLinks {
-        flex-direction: column;
+        display: flex;
+    justify-content: space-around;
+    width: 100%;
     }
 
     .PContainer {
@@ -246,7 +257,23 @@ border-bottom: 1px solid;
 
     .P1, .P2, .P3, .P4 {
         grid-column: 1;
-        grid-row: auto;
+        margin: 1rem;
         padding: 0.5rem;
+    }
+
+    .P1 {
+        grid-row: 4;
+    }
+
+    .P2 {
+        grid-row: 5;
+    }
+
+    .P3 {
+        grid-row: 6;
+    }
+
+    .P4 {
+        grid-row: 7;
     }
 }

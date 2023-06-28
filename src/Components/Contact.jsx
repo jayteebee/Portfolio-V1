@@ -1,4 +1,6 @@
 import React from "react";
+import githubIcon from "./icons8-github.svg"
+import linkedInIcon from "./icons8-linkedin.svg"
 
 const Contact = () => {
   return (
@@ -10,8 +12,12 @@ const Contact = () => {
     <p>jethroblock22@gmail.com</p>
 </div>
 <div className="SocialLinks">
-      <a href="https://github.com/jayteebee">GitHub</a>
-      <a href="https://www.linkedin.com/in/jethroblock/">LinkedIn</a>
+      <a href="https://github.com/jayteebee" rel="noreferrer"  target="_blank">
+      <img src={githubIcon} alt="GitHub"/>
+      </a>
+      <a href="https://www.linkedin.com/in/jethroblock/" rel="noreferrer"  target="_blank">
+      <img src={linkedInIcon} alt="LinkedIn"/>
+      </a>
    </div>
 </div>
   );

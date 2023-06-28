@@ -6,7 +6,6 @@ import P3 from "./Components/Projects/P3";
 import P4 from "./Components/Projects/P4";
 import NavBar from "./Components/NavBar";
 import AboutMe from "./Components/AboutMe";
-import { Element } from "react-scroll";
 
 function App() {
   return (
