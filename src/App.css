@@ -204,3 +204,49 @@ border-bottom: 1px solid;
     grid-row: 8;
     padding-left: 2rem;
 }
+
+@media only screen and (max-width: 768px) {
+    .Container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+  
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        margin: 0.5rem;
+    }
+  
+    .intro, .outro, .Name, .AboutMe {
+        font-size: 2rem;
+        grid-column: 1;
+    }
+
+    .AboutMe {
+        grid-row: auto;
+        padding-left: 1rem;
+    }
+
+    .Contact {
+        
+        grid-column: 1;
+        grid-row: auto;
+        order: 20;
+    }
+
+    .SocialLinks {
+        flex-direction: column;
+    }
+
+    .PContainer {
+        padding: 0.5rem;
+    }
+
+    .P1, .P2, .P3, .P4 {
+        grid-column: 1;
+        grid-row: auto;
+        padding: 0.5rem;
+    }
+}
