@@ -1,10 +1,12 @@
-/* 7 row 3 column 
-name and contact on row 2 in column 2
+@font-face {
+    font-family: 'Blockletter';
+    src: url('/Blockletter.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
-projects split between columns 1 and 3, with each having their own row
-have skills in projects
 
-*/
+
 .App {
     background: rgb(215,238,174);
 background: radial-gradient(circle, rgba(215,238,174,1) 0%, rgba(148,233,188,1) 100%);
@@ -13,23 +15,84 @@ background: radial-gradient(circle, rgba(215,238,174,1) 0%, rgba(148,233,188,1) 
 .Container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 25vh repeat(6, 40vh);
+    grid-template-rows: 30vh repeat(7, 35vh) 100vh;
 }
 
-.Name {
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+
+    background-color: #333; 
+    position: fixed;
+    width: 100%;
+    color: azure;
+  }
+
+.navbar a {
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+.intro {
+    font-family: 'Blockletter', Courier, monospace;
+    font-size: 3rem;
+    color: gray;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    grid-column: 1 ;
+    grid-row: 2;
+}
+
+.outro {
+    font-family: 'Blockletter', Courier, monospace;
+    font-size: 2rem;
+    color: gray;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    grid-column: 2;
-    grid-row: 1;
+    grid-column: 2 ;
+    grid-row: 2;
+}
+
+.Name {
+    font-family: 'Blockletter', Courier, monospace;
+    font-size: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1 /span 2;
+    grid-row: 2;
+}
+
+.AboutMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1 /span 2;
+    grid-row: 2 /span 3;
+    padding-left: 2rem;
+}
+
+.AboutMe h1 {
+    font-family: 'Blockletter', Courier, monospace;
+    font-size: 2rem;
+    color: white;
 }
 
 .Contact {
-    display: inline-flex;
-    align-items: flex-start;
+    display: flex;
     justify-content: center;
+    align-items: center;
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 9;
+}
+
+.SocialLinks {
+    display: flex;
+justify-content: space-between;
+width: 100%;
 }
 
 .fc {
@@ -41,23 +104,55 @@ background: radial-gradient(circle, rgba(215,238,174,1) 0%, rgba(148,233,188,1) 
 .P1 {
     
     grid-column: 3;
-    grid-row: 3;
+    grid-row: 5;
 }
+
+.PH {
+    font-family: 'Blockletter', Courier, monospace;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.PL {
+    display: flex;
+justify-content: space-between;
+width: 100%;
+border-bottom: 1px solid
+
+}
+a:hover {
+    color: white;
+}
+.PP, .PP2 {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+
+.PD {
+    text-align: center;
+    padding-top: 1rem;
+
+}
+
 
 .P2 {
    
     grid-column: 1;
-    grid-row: 4;
+    grid-row: 6;
 }
 
 .P3 {
    
     grid-column: 3;
-    grid-row: 5;
+    grid-row: 7;
 }
 
 .P4 {
   
     grid-column: 1;
-    grid-row: 6;
+    grid-row: 8;
 }
