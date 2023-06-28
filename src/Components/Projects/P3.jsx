@@ -2,7 +2,7 @@ import React from "react";
 
 const P3 = () => {
   return (
-    <div>
+    <div className="PContainer">
       <h3 className="PH">Project 3 - Football Friends</h3>
       <div className="PL">
         <a href="https://github.com/jayteebee/Football-Friends/blob/JB-Dev/completeREADME.md" rel="noreferrer"  target="_blank">

@@ -5,17 +5,23 @@
     font-style: normal;
 }
 
-
+@font-face {
+    font-family: 'Nunito';
+    src: url('../src/Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .App {
     background: rgb(215,238,174);
 background: radial-gradient(circle, rgba(215,238,174,1) 0%, rgba(148,233,188,1) 100%);
+font-family: 'Nunito';
 }
 
 .Container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 30vh repeat(7, 35vh) 100vh;
+    grid-template-rows: 30vh repeat(7, 35vh) 20vh 100vh;
 }
 
 .navbar {
@@ -31,6 +37,10 @@ background: radial-gradient(circle, rgba(215,238,174,1) 0%, rgba(148,233,188,1) 
 .navbar a {
     margin-left: 1rem;
     margin-right: 2rem;
+}
+
+.navbar a:hover {
+    color: aqua;
 }
 
 .intro {
@@ -82,17 +92,40 @@ background: radial-gradient(circle, rgba(215,238,174,1) 0%, rgba(148,233,188,1) 
 }
 
 .Contact {
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     grid-column: 2;
-    grid-row: 9;
+    grid-row: 10;
 }
+
+.Contact h2 {
+    text-align: center;
+    font-family: 'Blockletter', Courier, monospace;
+    font-size: 2rem;
+    color: white;
+}
+
+.CT {
+    text-align: center;
+}
+
+
 
 .SocialLinks {
     display: flex;
 justify-content: space-between;
 width: 100%;
+}
+
+.SocialLinks a {
+    color: black;
+    text-decoration: none;
+}
+
+.SocialLinks a:hover {
+    color: aqua;
 }
 
 .fc {
@@ -101,11 +134,7 @@ width: 100%;
     justify-content: center;
 }
 
-.P1 {
-    
-    grid-column: 3;
-    grid-row: 5;
-}
+
 
 .PH {
     font-family: 'Blockletter', Courier, monospace;
@@ -118,12 +147,18 @@ width: 100%;
     display: flex;
 justify-content: space-between;
 width: 100%;
-border-bottom: 1px solid
+border-bottom: 1px solid;
+}
 
+.PL a {
+    color: black;
+    text-decoration: none;
 }
-a:hover {
-    color: white;
+
+.PL a:hover {
+    color: aqua;
 }
+
 .PP, .PP2 {
     display: inline-flex;
     justify-content: space-around;
@@ -138,21 +173,34 @@ a:hover {
 
 }
 
+.PContainer {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15%;
+  padding: 1rem;
+}
+
+.P1 {
+    
+    grid-column: 3;
+    grid-row: 5;
+    padding-right: 2rem;
+}
+
 
 .P2 {
-   
     grid-column: 1;
     grid-row: 6;
+    padding-left: 2rem;
 }
 
 .P3 {
-   
     grid-column: 3;
     grid-row: 7;
+    padding-right: 2rem;
 }
 
 .P4 {
-  
     grid-column: 1;
     grid-row: 8;
+    padding-left: 2rem;
 }

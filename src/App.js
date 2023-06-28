@@ -6,6 +6,7 @@ import P3 from "./Components/Projects/P3";
 import P4 from "./Components/Projects/P4";
 import NavBar from "./Components/NavBar";
 import AboutMe from "./Components/AboutMe";
+import { Element } from "react-scroll";
 
 function App() {
   return (
@@ -19,15 +20,15 @@ function App() {
           <p>Jethro Block,</p>
         </div>
         <div className="outro" >A Junior Full Stack Developer.</div>
-        
-        <div className="Contact">
+
+        <div id="ContactScroll" className="Contact">
           <Contact />
         </div>
 
-        <div className="fc AboutMe">
+        <div id="AboutScroll"  className="fc AboutMe">
         <AboutMe />
         </div>
-        <div className="fc P1">
+        <div id="ProjectScroll" className="fc P1">
         <P1 />
         
         </div>

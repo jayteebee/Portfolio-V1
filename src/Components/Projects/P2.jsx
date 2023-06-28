@@ -2,7 +2,7 @@ import React from 'react'
 
 const P2 = () => {
   return (
-    <div>
+    <div className="PContainer">
     <h3 className='PH'>Project 2 - Workout Planner</h3>
     <div className='PL'>
     <a href="https://github.com/jayteebee/workout_planner/blob/main/workout_planner/src/readme.md" rel="noreferrer"  target="_blank">ReadMe</a>

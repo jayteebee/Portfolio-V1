@@ -2,7 +2,7 @@ import React from "react";
 
 const P4 = () => {
   return (
-    <div>
+    <div className="PContainer">
       <h3 className="PH">Project 4 - Fantasy Finance</h3>
       <div className="PL">
         <a href="https://github.com/jayteebee/fantasyFinance/blob/main/README.md" rel="noreferrer"  target="_blank">

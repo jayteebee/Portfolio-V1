@@ -2,7 +2,7 @@ import React from "react";
 
 const P1 = () => {
   return (
-    <div>
+    <div className="PContainer">
     <div>
       <h3 className="PH">Project 1 - Tic Tac Toe</h3>
       <div className="PL">
