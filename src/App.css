@@ -212,7 +212,7 @@ border-bottom: 1px solid;
     padding-left: 2rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     .Container {
         grid-template-columns: 1fr;
         grid-template-rows: 30vh repeat(6, 60vh) 30vh 50vh ;
@@ -223,13 +223,27 @@ border-bottom: 1px solid;
         margin: 0.5rem;
     }
   
-    .intro, .outro, .Name {
+    .intro, .outro{
         font-size: 2rem;
         grid-column: 1;
     }
 
+    .Name {
+        font-size: 3rem;
+    }
+
     .intro, .outro, .Name {
         grid-row: 2;
+    }
+
+    .intro {
+        display:flex;
+        justify-self: start;
+    }
+
+    .outro {
+        display:flex;
+        justify-self: end;
     }
 
     .AboutMe {
@@ -252,6 +266,8 @@ border-bottom: 1px solid;
     }
 
     .PContainer {
+        height: 100%;
+        width: 100%;
         padding: 0.5rem;
     }
 
