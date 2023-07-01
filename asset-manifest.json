@@ -1,19 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.df4287df.css",
-    "main.js": "/static/js/main.7ef94a63.js",
+    "main.css": "/static/css/main.b097eccf.css",
+    "main.js": "/static/js/main.7a017bcb.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf": "/static/media/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.61b71ee93d55d9bddead.ttf",
     "static/media/Blockletter.otf": "/static/media/Blockletter.1148b96b8d22acea8b8c.otf",
+    "static/media/money-bag.png": "/static/media/money-bag.3e2e7a07084a637f1818.png",
+    "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.ed61452f25c4b7ae5af2.png",
+    "static/media/football.png": "/static/media/football.d31e0b4fe55519036986.png",
+    "static/media/reactLOGO.svg": "/static/media/reactLOGO.7a4752ec295dfaf32108d52df3ff5704.svg",
+    "static/media/MongoLOGO.svg": "/static/media/MongoLOGO.4d0524e8507975bf9f23ba41f15253e8.svg",
+    "static/media/postgresqlLOGO.svg": "/static/media/postgresqlLOGO.6d3129da3f1900ded5afd8286e8e73ef.svg",
+    "static/media/railsLOGO.svg": "/static/media/railsLOGO.3648688df5f5cb1b83291c11f040e1c6.svg",
+    "static/media/cssLOGO.svg": "/static/media/cssLOGO.dbd31fe14ec796185689723739441965.svg",
+    "static/media/mongooseLOGO.svg": "/static/media/mongooseLOGO.46e69494b170801ca07dc944935e6049.svg",
     "static/media/icons8-github.svg": "/static/media/icons8-github.dc49a960a2d3c5a49c806f6188a7733b.svg",
+    "static/media/jsLOGO.svg": "/static/media/jsLOGO.96baf0687f8d9590cb3ebbb8eb895d1c.svg",
+    "static/media/cliLOGO.svg": "/static/media/cliLOGO.3ce9ab38b58851afd11c5a77fd9acdba.svg",
+    "static/media/sqlLOGO.svg": "/static/media/sqlLOGO.500be3fd232aecd4af83836028d48621.svg",
+    "static/media/expressLOGO.svg": "/static/media/expressLOGO.13e4b3884f318c648bfe0207aa64c8dc.svg",
     "index.html": "/index.html",
+    "static/media/rubyLOGO.svg": "/static/media/rubyLOGO.13b152aea5f353835a2cab28ee8f078d.svg",
     "static/media/icons8-linkedin.svg": "/static/media/icons8-linkedin.e9b8df20d092b20af087c400014ff4c8.svg",
-    "main.df4287df.css.map": "/static/css/main.df4287df.css.map",
-    "main.7ef94a63.js.map": "/static/js/main.7ef94a63.js.map",
+    "static/media/HTML-LOGO.svg": "/static/media/HTML-LOGO.6d333a9518b9e756393d74593cb5a228.svg",
+    "main.b097eccf.css.map": "/static/css/main.b097eccf.css.map",
+    "main.7a017bcb.js.map": "/static/js/main.7a017bcb.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df4287df.css",
-    "static/js/main.7ef94a63.js"
+    "static/css/main.b097eccf.css",
+    "static/js/main.7a017bcb.js"
   ]
 }
