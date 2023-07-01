@@ -7,6 +7,11 @@ import P4 from "./Components/Projects/P4";
 import NavBar from "./Components/NavBar";
 import AboutMe from "./Components/AboutMe";
 import Skills from "./Components/Skills";
+import tictactoe from "./Logos/tic-tac-toe.png"
+import dumbbell from "./Logos/dumbbells.png"
+import football from "./Logos/football.png"
+import money from "./Logos/money-bag.png"
+
 
 function App() {
   return (
@@ -28,20 +33,37 @@ function App() {
         <div id="AboutScroll" className="fc AboutMe">
           <AboutMe />
         </div>
+        
         <div id="ProjectScroll" className="fc P1">
           <P1 />
         </div>
 
+<div className="ttt">
+<img className="Logo" src={tictactoe} alt="tictactoe logo"></img>
+</div>
+
         <div className="fc P2">
           <P2 />
+        </div>
+
+        <div className="db">
+        <img className="Logo" src={dumbbell} alt="dumbbell logo"></img>
         </div>
 
         <div className="fc P3">
           <P3 />
         </div>
 
+        <div className="football">
+        <img className="Logo" src={football} alt="football logo"></img>
+        </div>
+
         <div className="fc P4">
           <P4 />
+        </div>
+
+        <div className="money">
+        <img className="Logo" src={money} alt="money logo"></img>
         </div>
 
         <div id="SkillsScroll" className="fc Skills">
