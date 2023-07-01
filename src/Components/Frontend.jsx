@@ -7,6 +7,7 @@ import cssLOGO from "../Logos/cssLOGO.svg";
 
 const Frontend = () => {
   return (
+    <div><h3>Skills</h3>
     <div className="skillOrientation">
       <div className="logoWrapper">
         <img className="Logo" src={htmlLOGO} alt="html logo"></img>
@@ -31,6 +32,7 @@ const Frontend = () => {
         <img className="Logo" src={rubyLOGO} alt="ruby logo"></img>
         <p>Ruby</p>
       </div>
+    </div>
     </div>
   );
 };

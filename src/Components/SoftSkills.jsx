@@ -2,12 +2,15 @@ import React from 'react'
 
 const SoftSkills = () => {
   return (
-    <div>
+    <div >
     <h3>Soft Skills</h3>
+    <div className="skillOrientation">
     <p>Communication</p>
-        <p>Project/Time Management</p>
+        <p>Project Management </p>
+        <p>Time Management</p>
         <p>Punctuality</p>
         <p>Problem Solving</p>
+        </div>
     </div>
   )
 }

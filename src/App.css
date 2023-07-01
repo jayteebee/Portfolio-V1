@@ -248,12 +248,20 @@ border-bottom: 1px solid;
     flex-direction: column;
 }
 
+.frontEnd h3 {
+    text-align: center;
+}
+
 .backEnd {
     grid-row: 2;
 }
 
 .softSkills {
     grid-row: 4;
+}
+
+.softSkills h3 {
+    text-align: center;
 }
 
 .other {
