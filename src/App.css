@@ -246,9 +246,9 @@ border-bottom: 1px solid;
     content: "";
     position: absolute;
     top: 0; 
-    left: -9px; 
-    width: 10px; 
-    height: 10px; 
+    left: -10.5px; 
+    width: 12px; 
+    height: 12px; 
     border-radius: 50%; 
     border: 3px solid black; 
     background: #b7ebb5; 
@@ -323,7 +323,7 @@ width: 200px;
 } */
 
 .money {
-    position: relative; /* Added to support pseudo-elements */
+    position: relative; 
     grid-row: 8;
     grid-column: 2;
     height: 100%;
@@ -407,7 +407,6 @@ width: 200px;
         grid-template-rows: 30vh repeat(6, 75vh) 20vh 100vh  100vh;
     }
   
-
     .navbar a {
         margin: 0.5rem;
     }
@@ -415,6 +414,7 @@ width: 200px;
     .intro, .outro{
         font-size: 2rem;
         grid-column: 1;
+        padding-left: 2rem;
     }
 
     .Name {
