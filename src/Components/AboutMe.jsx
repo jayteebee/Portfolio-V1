@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div>
+    <div className="PContainer4">
     <h1>A Bit About Me</h1>
 
     <p>In my prior career I founded and ran a Marketing Agency, and was immersed in the world of Sales and Marketing.</p>
