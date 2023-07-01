@@ -12,43 +12,42 @@ function App() {
   return (
     <div className="App">
       <div className="Container">
-      <NavBar />
-      <div className="intro">
-      <p>Hi, I'm</p>
-      </div>
+        <NavBar />
+        <div className="intro">
+          <p>Hi, I'm</p>
+        </div>
         <div className="Name">
           <p>Jethro Block,</p>
         </div>
-        <div className="outro" >A Junior Full Stack Developer.</div>
+        <div className="outro">A Junior Full Stack Developer.</div>
 
         <div id="ContactScroll" className="Contact">
           <Contact />
         </div>
 
-        <div id="AboutScroll"  className="fc AboutMe">
-        <AboutMe />
+        <div id="AboutScroll" className="fc AboutMe">
+          <AboutMe />
         </div>
         <div id="ProjectScroll" className="fc P1">
-        <P1 />
-        
+          <P1 />
         </div>
 
         <div className="fc P2">
-        <P2 />
+          <P2 />
         </div>
 
         <div className="fc P3">
-        <P3 />
+          <P3 />
         </div>
 
         <div className="fc P4">
-        <P4 />
+          <P4 />
         </div>
 
-        <div className="fc Skills">
-        <Skills />
+        <div id="SkillsScroll" className="fc Skills">
+          <Skills />
         </div>
-      
+
       </div>
     </div>
   );
