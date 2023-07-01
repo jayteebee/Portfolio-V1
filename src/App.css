@@ -218,7 +218,7 @@ border-bottom: 1px solid;
     padding-right: 2rem;
 }
 
-.ttt {
+/* .ttt {
     grid-row: 5;
     grid-column: 2;
     height: 100%;
@@ -228,7 +228,32 @@ border-bottom: 1px solid;
     border-left: 3px dashed black;
     border-bottom: 3px dashed black;
 
+} */
+
+.ttt {
+    position: relative; 
+    grid-row: 5;
+    grid-column: 2;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 3px dashed black;
+    border-bottom: 3px dashed black;
 }
+
+.ttt::before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: -9px; 
+    width: 10px; 
+    height: 10px; 
+    border-radius: 50%; 
+    border: 3px solid black; 
+    background: #b7ebb5; 
+}
+
 
 .ttt img {
 width: 200px;
@@ -286,7 +311,7 @@ width: 200px;
     padding-left: 2rem;
 }
 
-.money {
+/* .money {
     grid-row: 8;
     grid-column: 2;
     height: 100%;
@@ -294,8 +319,31 @@ width: 200px;
     align-items: center;
     justify-content: center;
     border-right: 3px dashed black;
-    /* border-bottom: 3px dashed black; */
+
+} */
+
+.money {
+    position: relative; /* Added to support pseudo-elements */
+    grid-row: 8;
+    grid-column: 2;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 3px dashed black;
 }
+
+.money::after {
+    content: "";
+    position: absolute;
+    bottom: -16px; 
+    right: -16.5px; 
+    border-width: 15px; 
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+    transform: rotate(-90deg); 
+}
+
 
 .money img {
 width: 200px;
