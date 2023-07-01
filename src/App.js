@@ -6,6 +6,7 @@ import P3 from "./Components/Projects/P3";
 import P4 from "./Components/Projects/P4";
 import NavBar from "./Components/NavBar";
 import AboutMe from "./Components/AboutMe";
+import Skills from "./Components/Skills";
 
 function App() {
   return (
@@ -42,6 +43,10 @@ function App() {
 
         <div className="fc P4">
         <P4 />
+        </div>
+
+        <div className="fc Skills">
+        <Skills />
         </div>
       
       </div>

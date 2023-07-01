@@ -4,7 +4,7 @@ import linkedInIcon from "./icons8-linkedin.svg"
 
 const Contact = () => {
   return (
-    <div className="PContainer">
+    <div className="PContainer2">
     <h2>A Bit More About Me</h2>
 <div className="CT">
     <p>I invite you to learn more about me by visiting my LinkedIn and GitHub profiles.</p>
