@@ -36,7 +36,7 @@ function App() {
         <div id="AboutScroll" className="fc AboutMe">
           <AboutMe />
         </div>
-
+        <div className="emptyDiv5"></div>
         <div id="ProjectScroll" className="fc P1">
           <P1 /> 
         </div>
@@ -70,6 +70,7 @@ function App() {
         <div className="money">
           <img className="Logo" src={money} alt="money logo"></img>
         </div>
+        <div className="emptyDiv6"></div>
 
         <div id="SkillsScroll" className="fc Skills">
           <Skills />

@@ -17,10 +17,7 @@ const Backend = () => {
         <img className="Logo" src={mongoLOGO} alt="mongo logo"></img>
         <p>MongoDB</p>
       </div>
-      <div className="logoWrapper">
-        <img className="Logo" src={mongooseLOGO} alt="mongoose logo"></img>
-        <p>Mongoose</p>
-      </div>
+     
       <div className="logoWrapper">
         <img className="Logo" src={sqlLOGO} alt="sql logo"></img>
 
