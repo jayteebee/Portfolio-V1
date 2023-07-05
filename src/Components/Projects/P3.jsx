@@ -26,8 +26,9 @@ const P3 = () => {
       </div>
 
       <div className="PD">
-<p>My first team project and Full Stack app, completed within 9 days. </p>
+<p>My first team project and Full Stack MERN app, completed within 9 days. </p>
 <p>The app aims to help Football Fans to find and meet each other, sharing admired players as a common interest.</p>
+<p>As a team we were also able to implement authentication, which was a great achievement for us.</p>
       </div>
 
     </div>

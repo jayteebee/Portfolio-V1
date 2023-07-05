@@ -26,6 +26,7 @@ const P4 = () => {
  <div className="PD">
 <p>My second Full Stack App, this time completed solo.</p>
 <p>The app allows beginner stock traders to test out their trading strategies in a risk free environment.</p>
+
  </div>
 
     </div>

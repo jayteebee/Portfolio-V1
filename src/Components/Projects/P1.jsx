@@ -18,7 +18,9 @@ const P1 = () => {
 
 
     <div className="PD">
-    <p> This project was built in 1 week and represents the first time I ever built an app. </p>
+    <p> This project was built in 1 week and represents my first app build. </p>
+    <p> It's a classic game of Tic-Tac-Toe with an 80's twist. </p>
+
     </div>
 
     </div>

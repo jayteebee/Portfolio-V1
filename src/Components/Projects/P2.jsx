@@ -17,7 +17,8 @@ const P2 = () => {
 
   <div className="PD">
 <p>An app created to help people plan their workout schedules and create specific workouts.</p>
-<p>I have since come back to rebuilt this project with a better foundational skill set.</p>
+<p>Users can create, update and delete exercises and workouts to fit into their plan.</p>
+<p>I have since come back to rebuild this project with a view to launching it as an official app.</p>
   </div>
 
     </div>
