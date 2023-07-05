@@ -7,7 +7,7 @@ import cssLOGO from "../Logos/cssLOGO.svg";
 
 const Frontend = () => {
   return (
-    <div><h3>Skills</h3>
+    <div><h3>Technologies</h3>
     <div className="skillOrientation">
       <div className="logoWrapper">
         <img className="Logo" src={htmlLOGO} alt="html logo"></img>
