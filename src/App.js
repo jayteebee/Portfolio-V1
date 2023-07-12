@@ -20,9 +20,10 @@ function App() {
         
         
         
-        <div className="intro">
-          <p>Hi, I'm</p>
-        </div>
+         <div className="intro">
+          {/* <p>Hi, I'm</p> */}
+  </div>
+        
         <div className="Name">
           <p>Jethro Block,</p>
         </div>
@@ -37,14 +38,17 @@ function App() {
           <AboutMe />
         </div>
         <div className="emptyDiv5"></div>
+
+
         <div id="ProjectScroll" className="fc P1">
           <P1 /> 
         </div>
         <div className="emptyDiv1"></div>
-
         <div className="ttt">
           <img className="Logo" src={tictactoe} alt="tictactoe logo"></img>
         </div>
+
+
 
         <div className="fc P2">
           <P2 />
@@ -54,6 +58,8 @@ function App() {
           <img className="Logo" src={dumbbell} alt="dumbbell logo"></img>
         </div>
 
+
+
         <div className="fc P3">
           <P3 />
         </div>
@@ -62,14 +68,17 @@ function App() {
           <img className="Logo" src={football} alt="football logo"></img>
         </div>
 
+
+
         <div className="fc P4">
           <P4 />
         </div>
         <div className="emptyDiv4"></div>
-
         <div className="money">
           <img className="Logo" src={money} alt="money logo"></img>
         </div>
+
+        
         <div className="emptyDiv6"></div>
 
         <div id="SkillsScroll" className="fc Skills">
