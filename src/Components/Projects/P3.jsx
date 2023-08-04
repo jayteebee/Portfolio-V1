@@ -40,6 +40,13 @@ const P3 = () => {
           target="_blank"
         >
           <img src={readMeIcon} alt="readme icon" />
+
+          <a
+          href="https://jayteebee.github.io/Football-Friends/"
+          rel="noreferrer"
+          target="_blank"
+        >
+        <img src={deployedIcon} alt="deployed icon" />
         </a>
       </div>
     </div>

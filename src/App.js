@@ -11,6 +11,7 @@ import tictactoe from "./Logos/tic-tac-toe.png";
 import dumbbell from "./Logos/dumbbells.png";
 import football from "./Logos/football.png";
 import money from "./Logos/money-bag.png";
+import SideProject from "./Components/SideProject";
 
 function App() {
   return (
@@ -81,6 +82,11 @@ function App() {
         
         <div className="emptyDiv6"></div>
 
+        <div className="fc SideProject">
+          <SideProject />
+        </div>
+
+        <div className="emptyDiv7"></div>
         <div id="SkillsScroll" className="fc Skills">
           <Skills />
         </div>

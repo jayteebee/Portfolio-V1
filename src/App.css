@@ -22,7 +22,7 @@ font-family: 'Nunito';
 .Container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 30vh 50vh 50vh 20vh repeat(4, 50vh) 20vh 100vh 20vh 100vh;
+    grid-template-rows: 30vh 50vh 50vh 20vh repeat(4, 50vh) 50vh 20vh 100vh 20vh 100vh;
     position: relative;
 }
 
@@ -47,12 +47,18 @@ font-family: 'Nunito';
     background-color: #B9C1EA;
   }
 
-  .Container > :nth-child(n+20):nth-child(-n+20) {
+  .Container > :nth-child(n+20):nth-child(-n+21) {
+    background-color: #7084E6;
+  }
+
+
+
+  .Container > :nth-child(n+23):nth-child(-n+23) {
     background: rgb(57,143,150);
     background: linear-gradient(180deg, rgba(185,193,234,1) 0%, rgba(112,132,230,1) 100%);
   }
   
-  .Container > :nth-child(n+21):nth-child(-n+21) {
+  .Container > :nth-child(n+22):nth-child(-n+22) {
     background-color: #7084E6;
   }
 
@@ -141,7 +147,7 @@ font-family: 'Nunito';
     justify-content: center;
     align-items: center;
     grid-column: 2;
-    grid-row: 12;
+    grid-row: 13;
 }
 
 .Contact h2 {
@@ -307,6 +313,12 @@ width: 100%;
     grid-column: 1/ span 3;
 }
 
+.emptyDiv7 {
+    grid-row: 10;
+    grid-column: 1/ span 3;
+    /* background: rgb(57,143,150); */
+    background: linear-gradient(180deg, #7084E6 0%, #B9C1EA 100%);
+}
 
 .ttt {
     position: relative; 
@@ -422,9 +434,14 @@ width: 200px;
     height: auto;
 }
 
+.SideProject {
+    grid-row: 9;
+    grid-column: 1/span 3;
+}
+
 .Skills {
     grid-column: 1/span 3;
-    grid-row: 10;
+    grid-row: 11;
 }
 
 .skillOrientation {
