@@ -551,10 +551,26 @@ width: 200px;
 }
 
 
-@media only screen and (max-width: 800px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
     .Container {
         grid-template-columns: 1fr;
-        grid-template-rows: 30vh repeat(6, 75vh) 20vh 100vh  100vh;
+        grid-template-rows: 30vh repeat(6, 75vh) 1vh 100vh  100vh;
     }
   
     .navbar a {
@@ -593,7 +609,7 @@ width: 200px;
 
     .Contact {
         grid-column: 1;
-        grid-row: 10;
+        grid-row: 11;
     }
 
 
@@ -614,6 +630,7 @@ width: 200px;
         background-color: rgba(255, 255, 255, 0.1);
         border-radius: 15%;
         padding: 1rem;
+        z-index: 10;
     }
     
     .PContainer3 {
@@ -654,7 +671,7 @@ width: 200px;
     .skillOrientation {
         display: flex;
       flex-direction: row;
-      justify-content: space-around; 
+      justify-content: space-evenly;
       align-items: center; 
       flex-wrap: wrap;
     }
@@ -690,6 +707,287 @@ width: 200px;
         height: auto;
     }
     
+    .logoWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ttt, .db, .football, .money {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 450px) {
+    .Container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto repeat(6, auto) auto auto;
+        overflow-x: auto;
+    }
+
+    .navbar a {
+        margin: 0.5rem;
+    }
+
+    .intro, .outro {
+        font-size: 1.5rem; 
+        grid-column: 1;
+        padding: 0.5rem; 
+        text-align: center; 
+    }
+
+    .Name {
+        font-size: 2rem; 
+        justify-content: flex-start;
+    }
+
+    .intro, .outro, .Name {
+        grid-row: auto; 
+    }
+
+    .intro {
+        display: block; 
+        text-align: left; 
+    }
+
+    .outro {
+        display: block; 
+        text-align: right; 
+    }
+
+    .AboutMe {
+        font-size: 1rem;
+        grid-row: auto; 
+        padding: 0.5rem; 
+        text-align: center; 
+    }
+
+    .Contact {
+        grid-column: 1;
+        grid-row: 16; 
+    }
+
+    .SocialLinks {
+        display: flex;
+        justify-content: space-between; 
+        width: 100%;
+    }
+
+    .PContainer {
+        height: auto; 
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .PContainer2,
+    .PContainer3 {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 15%;
+        padding: 1rem;
+        z-index: 10;
+    }
+
+    .PContainer3 {
+        width: 100%;
+        height: auto; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .P1, .P2, .P3, .P4 {
+        grid-column: 1;
+        margin: 0.5rem; 
+        padding: 0.5rem;
+        text-align: center; 
+    }
+
+    .P1, .P2, .P3, .P4 {
+        grid-row: auto; 
+    }
+
+    .Skills {
+        grid-row: auto; 
+    }
+    .skillOrientation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap; 
+        margin: 0.5rem; 
+    }
+
+    .frontEnd {
+        grid-row: auto; 
+        text-align: center;
+    }
+
+    .frontEnd h3 {
+        text-align: center;
+    }
+
+    .backEnd {
+        grid-row: auto; 
+    }
+
+    .softSkills {
+        grid-row: auto; 
+    }
+
+    .softSkills h3 {
+        text-align: center;
+    }
+
+    .other {
+        grid-row: auto; 
+    }
+
+    .Logo {
+        width: 40px;
+        height: auto;
+    }
+
+    .logoWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ttt, .db, .football, .money {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+    .Container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto repeat(6, auto) auto auto;
+        overflow-x: hidden; 
+    }
+
+    .navbar a {
+        margin: 0.25rem; 
+    }
+
+    .intro, .outro, .Name, .AboutMe, .P1, .P2, .P3, .P4 {
+        font-size: 1rem;
+        padding: 0.25rem;
+        text-align: center;
+    }
+
+    .intro, .outro, .AboutMe, .P1, .P2, .P3, .P4 {
+        margin: 0.5rem 0; 
+    }
+
+    .PP2 {
+        flex-wrap: wrap;
+    }
+
+    .Name {
+        font-size: 1.5rem;
+        justify-content: center;
+    }
+
+    .Contact {
+        grid-column: 1;
+        grid-row: 16;
+    }
+
+    .SocialLinks {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .PContainer {
+        height: auto;
+        width: 100%;
+        padding: 0.25rem; 
+    }
+
+    .PContainer2, .PContainer3 {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 15%;
+        padding: 0.5rem;
+        z-index: 10;
+    }
+
+    .PContainer3 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .P1, .P2, .P3, .P4 {
+        grid-column: 1;
+        margin: 0.5rem 0; 
+        padding: 0.25rem;
+        text-align: center;
+    }
+
+    .Skills {
+        grid-row: auto;
+        margin: 0.5rem 0;
+    }
+
+    .skillOrientation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0.25rem 0; 
+    }
+
+    .frontEnd, .backEnd, .softSkills, .other {
+        grid-row: auto;
+        margin: 0.5rem 0; 
+        text-align: center;
+    }
+
+    .frontEnd h3 {
+        text-align: center;
+    }
+
+    .softSkills h3 {
+        text-align: center;
+    }
+
+    .Logo {
+        width: 30px; 
+        height: auto;
+    }
+
     .logoWrapper {
         display: flex;
         flex-direction: column;
