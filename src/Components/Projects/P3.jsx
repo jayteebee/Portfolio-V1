@@ -43,7 +43,7 @@ const P3 = () => {
         </a>
 
         <a
-        href="football-friends.vercel.app"
+        href="football-friends.vercel.app" // working
         rel="noreferrer"
         target="_blank"
       >
