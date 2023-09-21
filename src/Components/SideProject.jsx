@@ -1,6 +1,6 @@
 import React from "react";
 import readMeIcon from "../Logos/reading.png";
-import deployedIcon from "../../Logos/OpenNewTab.svg";
+import deployedIcon from "../Logos/OpenNewTab.svg";
 
 const SideProject = () => {
   return (
