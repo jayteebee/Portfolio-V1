@@ -1,5 +1,6 @@
 import React from "react";
 import readMeIcon from "../Logos/reading.png";
+import deployedIcon from "../../Logos/OpenNewTab.svg";
 
 const SideProject = () => {
   return (
@@ -34,6 +35,14 @@ const SideProject = () => {
       <img src={readMeIcon} alt="readme icon" />
       </a>
     
+      <a
+      href="https://workout-app-fe-eight.vercel.app/" // working
+      rel="noreferrer"
+      target="_blank"
+    >
+    <img src={deployedIcon} alt="deployed icon" />
+    </a>
+
     </div>
 
     </div>
